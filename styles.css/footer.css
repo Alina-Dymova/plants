@@ -1,0 +1,25 @@
+.content_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer_data {
+    width: 182px;
+    height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.social_list {
+    display: flex;
+    gap: 30px;
+}

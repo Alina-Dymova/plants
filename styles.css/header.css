@@ -1,0 +1,41 @@
+.header {
+    height: 100%;
+    max-height: 134px;
+    background: #edf2ec;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+}
+
+.content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content_img {
+    width: 448px;
+}
+
+.nav_list_items {
+    display: flex;
+    gap: 46px;
+    list-style-type: none;
+}
+
+
+
+.nav_list_items li a {
+    font-family: var(--second-family);
+    font-size: 16px;
+    line-height: 312%;
+}
+
+
+.nav_list_items li a:hover {
+    color: #e06733;
+}
+
